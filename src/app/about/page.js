@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import "./globals.css";
 
 const page = () => {
   return (
@@ -13,10 +12,10 @@ const page = () => {
           >
             <Image
               src="/sam-logo.png"
-              alt="my-logo"
               class=""
               height={"80"}
               width={"80"}
+              alt="my-logo"
             />
           </a>
           <button
@@ -45,7 +44,7 @@ const page = () => {
             <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
               <li>
                 <a
-                  href="\"
+                  href="/"
                   class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
                 >
                   Home
@@ -81,192 +80,29 @@ const page = () => {
         </div>
       </nav>
 
-      <header>
-        <div className="relative bg-white">
-          <div className="mx-auto max-w-7xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
-            <div className="px-6 pb-24 pt-10 sm:pb-32 lg:col-span-7 lg:px-0 lg:pb-56 lg:pt-48 xl:col-span-6">
-              <div className="mx-auto max-w-2xl lg:mx-0">
-                <div className="hidden sm:mt-32 sm:flex lg:mt-16"></div>
-                <h1 className="mt-24 text-4xl font-bold tracking-tight text-gray-900 sm:mt-10 sm:text-6xl">
-                  Hi 👋, I'm Sam Zafar <br />A Passionate Frontend Developer
-                </h1>
-                <p className="mt-6 text-lg leading-8 text-gray-600">
-                  Sam Zafar: Pakistan's Pioneering Frontend Developer. With a
-                  passion for crafting digital brilliance, I transform ideas
-                  into captivating web experiences. Let's code the future
-                  together. 👨‍💻🚀
-                </p>
-                <div className="mt-10 flex items-center gap-x-6">
-                  <a
-                    href="/sam-zafar-resume.pdf"
-                    className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                    target="_blank"
-                  >
-                    Download Resume
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="relative lg:col-span-5 lg:-mr-8 xl:absolute xl:inset-0 xl:left-1/2 xl:mr-0">
-              <img
-                className="aspect-[3/2] w-full bg-gray-50 object-cover lg:absolute lg:inset-0 lg:aspect-auto lg:h-full"
-                src="/pick.jpg"
-                alt="coding lover"
-                height={""}
-                width={""}
-                loading="lazy"
-              />
-            </div>
+      <div className="bg-white">
+        <div className="relative bg-gray-900">
+          {/* Decorative image and overlay */}
+          <div aria-hidden="true" className="absolute inset-0 overflow-hidden">
+            <img
+              src="https://tailwindui.com/img/ecommerce-images/home-page-01-hero-full-width.jpg"
+              alt=""
+              className="h-full w-full object-cover object-center"
+            />
           </div>
-        </div>
-      </header>
-
-      <div className="Hello">
-        <div className="relative bg-white">
-          <img
-            className=" w-full bg-gray-50 object-cover lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-1/2"
-            src="coding.jpg"
-            alt="coding lover"
-            height={""}
-            width={""}
-            loading="lazy"
+          <div
+            aria-hidden="true"
+            className="absolute inset-0 bg-gray-900 opacity-50"
           />
-          <div className="mx-auto grid max-w-7xl lg:grid-cols-2">
-            <div className="px-6 pb-24 pt-16 sm:pb-32 sm:pt-20 lg:col-start-2 lg:px-8 lg:pt-32">
-              <div className="mx-auto max-w-2xl lg:mr-0 lg:max-w-lg">
-                <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                  About Me
-                </p>
-                <p className="mt-6 text-lg leading-8 text-gray-600">
-                  👋 Hello! I'm SAM ZAFAR, a passionate Front-End Developer with
-                  a knack for crafting engaging and user-friendly web
-                  experiences.
-                </p>
-                <p className="mt-6 text-lg leading-8 text-gray-600">
-                  ✅ HTML / CSS / Bootstrap/Tailwind CSS ( Semantic HTML, Grid
-                  and Flexbox )
-                </p>
-                <p className="mt-6 text-lg leading-8 text-gray-600">
-                  ✅ CSS Preprocessor ( SASS/SCSS )
-                </p>
-                <p className="mt-6 text-lg leading-8 text-gray-600">
-                  ✅ JavaScript ( ECMAScript 6+ )
-                </p>
-                <p className="mt-6 text-lg leading-8 text-gray-600">
-                  ✅ Widely used frameworks and libraries ( ReactJs,
-                  Redux,Next.Js)
-                </p>
-                <p className="mt-6 text-lg leading-8 text-gray-600">
-                  ✅ Version Control System ( GIT )
-                </p>
-                <p className="mt-6 text-lg leading-8 text-gray-600">
-                  ✅ Cross-browser Development
-                </p>
-                <p className="mt-6 text-lg leading-8 text-gray-600">
-                  ✅ Debugging ( Chrome Dev Tools, React Dev Tools, and others.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <div>
-        <div class="overflow-hidden bg-dark shadow sm:rounded-lg">
-          <div class="px-4 py-6 sm:px-6 ">
-            <h2 class="text-base font-semibold leading-7 text-white-900 ">
-              Applicant Information
-            </h2>
-            <p class="text mt-4  text-sm leading-6 text-white-900">
-              Personal details and application.
+          <div className="relative mx-auto flex max-w-3xl flex-col items-center px-6 py-32 text-center sm:py-64 lg:px-0">
+            <h1 className="text-4xl font-bold tracking-tight text-white lg:text-6xl">
+             About Us
+            </h1>
+            <p className="mt-4 text-xl text-white">
+            Passionate frontend developer from Pakistan, Sam Zafar. Expert in HTML, CSS, and JavaScript. Committed to crafting captivating digital experiences that push boundaries and inspire innovation. 🚀
             </p>
-          </div>
-          <div class="border-t border-gray-100">
-            <dl class="divide-y divide-gray-100">
-              <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                <dt class="text-sm font-medium text-white-900">Full name</dt>
-                <dd class="mt-1 text-sm leading-6 text-white-900 sm:col-span-2 sm:mt-0">
-                  Sam Zafar
-                </dd>
-              </div>
-              <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                <dt class="text-sm font-medium text-white-900">
-                  Application for
-                </dt>
-                <dd class="mt-1 text-sm leading-6 text-white-900 sm:col-span-2 sm:mt-0">
-                  Front-End Developer
-                </dd>
-              </div>
-              <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                <dt class="text-sm font-medium text-white-900">
-                  Email address
-                </dt>
-                <dd class="mt-1 text-sm leading-6 text-white-900 sm:col-span-2 sm:mt-0">
-                  samzafar40@gmail.com
-                </dd>
-              </div>
-              <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                <dt class="text-sm font-medium text-white-900">
-                  Salary expectation
-                </dt>
-                <dd class="mt-1 text-sm leading-6 text-white-900 sm:col-span-2 sm:mt-0">
-                  $1,999
-                </dd>
-              </div>
-              <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                <dt class="text-sm font-medium text-white-900">About</dt>
-                <dd class="mt-1 text-sm leading-6 text-white-900 sm:col-span-2 sm:mt-0">
-                  Fugiat ipsum ipsum deserunt culpa aute sint do nostrud anim
-                  incididunt cillum culpa consequat. Excepteur qui ipsum aliquip
-                  consequat sint. Sit id mollit nulla mollit nostrud in ea
-                  officia proident. Irure nostrud pariatur mollit ad adipisicing
-                  reprehenderit deserunt qui eu.
-                </dd>
-              </div>
-              <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                <dt class="text-sm font-medium leading-6 text-white-900">
-                  Attachments
-                </dt>
-                <dd class="mt-2 text-sm text-white-900 sm:col-span-2 sm:mt-0">
-                  <ul
-                    role="list"
-                    class="divide-y divide-gray-100 rounded-md border border-gray-200"
-                  >
-                    <li class="flex items-center justify-between py-4 pl-4 pr-5 text-sm leading-6">
-                      <div class="flex w-0 flex-1 items-center">
-                        <svg
-                          class="h-5 w-5 flex-shrink-0 text-gray-400"
-                          viewBox="0 0 20 20"
-                          fill="currentColor"
-                          aria-hidden="true"
-                        >
-                          <path
-                            fill-rule="evenodd"
-                            d="M15.621 4.379a3 3 0 00-4.242 0l-7 7a3 3 0 004.241 4.243h.001l.497-.5a.75.75 0 011.064 1.057l-.498.501-.002.002a4.5 4.5 0 01-6.364-6.364l7-7a4.5 4.5 0 016.368 6.36l-3.455 3.553A2.625 2.625 0 119.52 9.52l3.45-3.451a.75.75 0 111.061 1.06l-3.45 3.451a1.125 1.125 0 001.587 1.595l3.454-3.553a3 3 0 000-4.242z"
-                            clip-rule="evenodd"
-                          />
-                        </svg>
-                        <div class="ml-4 flex min-w-0 flex-1 gap-2">
-                          <span class="truncate font-medium">
-                            resume_front_end_developer.pdf
-                          </span>
-                          <span class="flex-shrink-0 text-gray-400">2.4mb</span>
-                        </div>
-                      </div>
-                      <div class="ml-4 flex-shrink-0">
-                        <a
-                          href="/sam-zafar-resume.pdf"
-                          class="font-medium text-indigo-600 hover:text-indigo-500"
-                          target="_blank"
-                        >
-                          Download
-                        </a>
-                      </div>
-                    </li>
-                  </ul>
-                </dd>
-              </div>
-            </dl>
+           
           </div>
         </div>
       </div>
@@ -275,13 +111,7 @@ const page = () => {
         <footer class="bg-white rounded-lg shadow dark:bg-gray-900 m-4">
           <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
             <div class="sm:flex sm:items-center sm:justify-between">
-              <Image
-                src="/sam-logo.png"
-                alt="my-logo"
-                class=""
-                height={"80"}
-                width={"80"}
-              />
+              <Image src="/sam-logo.png" class="" height={"80"} width={"80"} />
 
               <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                 <li>
@@ -302,7 +132,7 @@ const page = () => {
                 </li>
                 <li>
                   <a
-                    href="/project"
+                    href="#home"
                     class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                   >
                     Projects
@@ -311,7 +141,7 @@ const page = () => {
 
                 <li>
                   <a
-                    href="/Contact"
+                    href="/project"
                     class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                   >
                     Contact
