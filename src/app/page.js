@@ -210,17 +210,13 @@ const page = () => {
                   Salary expectation
                 </dt>
                 <dd class="mt-1 text-sm leading-6 text-white-900 sm:col-span-2 sm:mt-0">
-                  $1,999
+                  $1,111
                 </dd>
               </div>
               <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                 <dt class="text-sm font-medium text-white-900">About</dt>
                 <dd class="mt-1 text-sm leading-6 text-white-900 sm:col-span-2 sm:mt-0">
-                  Fugiat ipsum ipsum deserunt culpa aute sint do nostrud anim
-                  incididunt cillum culpa consequat. Excepteur qui ipsum aliquip
-                  consequat sint. Sit id mollit nulla mollit nostrud in ea
-                  officia proident. Irure nostrud pariatur mollit ad adipisicing
-                  reprehenderit deserunt qui eu.
+                Sam Zafar: Pioneering Frontend Developer. With a passion for crafting digital brilliance, I transform ideas into captivating web experiences. Let's code the future together. 👨‍💻🚀
                 </dd>
               </div>
               <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
