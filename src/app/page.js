@@ -210,7 +210,7 @@ const page = () => {
                   Salary expectation
                 </dt>
                 <dd class="mt-1 text-sm leading-6 text-white-900 sm:col-span-2 sm:mt-0">
-                  $1,111
+                  $999
                 </dd>
               </div>
               <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">

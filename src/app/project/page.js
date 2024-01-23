@@ -1,11 +1,10 @@
-import React from 'react'
+import React from "react";
 import Image from "next/image";
-
 
 const page = () => {
   return (
-   <>
-   <nav class="bg-white border-gray-200 dark:bg-gray-900">
+    <>
+      <nav class="bg-white border-gray-200 dark:bg-gray-900">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a
             href="https://flowbite.com/"
@@ -81,31 +80,290 @@ const page = () => {
         </div>
       </nav>
 
+      <div className="bg-gray-900">
+        <div className="relative isolate overflow-hidden pt-14">
+          <img
+            src="/contact1.jpg"
+            alt="banner-img"
+            className="absolute inset-0 -z-10 h-300 w-full object-cover"
+          />
+          <div
+            className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+            aria-hidden="true"
+          ></div>
+          <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+            <div className="text-center">
+              <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
+                Data to enrich your online business
+              </h1>
+              <p className="mt-6 text-lg leading-8 text-gray-300">
+                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
+                lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
+                fugiat aliqua.
+              </p>
+              <div className="mt-10 flex items-center justify-center gap-x-6">
+                <a
+                  href="/sam-zafar-resume.pdf"
+                  className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
+                  target="_blank"
+                >
+                  Download Resume
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+            aria-hidden="true"
+          ></div>
+        </div>
+      </div>
 
- 
+      <div className="mx-auto max-w-2xl lg:text-center">
+        <p className="mt-6 text-3xl font-bold tracking-tight text-white sm:text-4xl">
+          Our Projects
+        </p>
+      </div>
 
+      <div className="bg-black lg:order-first">
+        <main className="isolate ">
+          {/* Content sction */}
+          <div className=" overflow-hidden sm:mt-40 ">
+            <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8 ">
+              <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8 ">
+                <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8 mt-8 ">
+                  <h2 className="text-3xl font-bold tracking-tight text-white-900 sm:text-4xl">
+                    Genius Auto Trans LLC
+                  </h2>
+                  <p className="mt-6 text-xl leading-8 text-white-600">
+                    Virginia-based Genius Auto Trans provides trustworthy and
+                    efficient auto transfer nationwide. We make exporting your
+                    automobile easy and stress-free with our dedication to
+                    customer service. Genius Auto Trans transports cars for
+                    individuals and corporations.
+                  </p>
+                  <a
+                    href="https://geniusautotrans.com/"
+                    className="common-btn-color1"
+                    target="_blank"
+                    style={{
+                      marginLeft: "10px",
+                      color: "white",
+                      textDecoration: "none",
+                    }}
+                  >
+                    PREVIEW
+                  </a>
+                </div>
+                <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
+                  <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
+                    <img
+                      src="/genius-auto-trans.png"
+                      alt=""
+                      className="aspect-[7/5] w-[45rem] h-[25rem] max-w-none rounded-2xl bg-gray-50 object-cover"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <div className="overflow-hidden bg-black py-24 sm:py-32">
+            <div className="mx-auto max-w-7xl px-6 lg:px-8">
+              <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+                <div className="lg:ml-auto lg:pl-4 lg:pt-4">
+                  <div className="lg:max-w-lg mt-8 ">
+                    <p className="mt-4 text-3xl font-bold ml-20 tracking-tight text-white-900 sm:text-4xl">
+                      Sam Sahotra Foundation
+                    </p>
+                    <p className="mt-6 text-lg leading-8 text-white-600 ml-20">
+                      Sam Sahotra Foundation non-profit organization that
+                      supports good causes and positive change. To make the
+                      world a better place.
+                    </p>
+                    <a
+                      href="https://www.samsahotra.org/"
+                      className="common-btn-color1"
+                      target="_blank"
+                      style={{
+                        marginLeft: "90px",
+                        color: "white",
+                        textDecoration: "none",
+                      }}
+                    >
+                      PREVIEW
+                    </a>
+                  </div>
+                </div>
+                <div className="items-start lg:order-first">
+                  <img
+                    src="/ssf.png"
+                    alt=""
+                    className="aspect-[7/5] w-[45rem] h-[25rem] max-w-none rounded-2xl bg-gray-50 object-cover"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8 ">
+            <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8 ">
+              <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8 mt-8 ">
+                <h2 className="text-3xl font-bold tracking-tight text-white-900 sm:text-4xl">
+                  GENIUS PACKAGING
+                </h2>
+                <p className="mt-6 text-xl leading-8 text-white-600">
+                  Genius Packaging is a well-known and reliable company with a
+                  strong presence in the United States. Our core ideals are our
+                  dedication to quality and excellent customer service. We care
+                  about our customers and want them to become loyal business
+                  supporters.
+                </p>
+                <a
+                  href="https://www.geniuspackaging.net/"
+                  className="common-btn-color1"
+                  target="_blank"
+                  style={{
+                    marginLeft: "10px",
+                    color: "white",
+                    textDecoration: "none",
+                  }}
+                >
+                  PREVIEW
+                </a>
+              </div>
+              <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
+                <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
+                  <img
+                    src="/genius-packaging.png"
+                    alt="genius-packaging"
+                    className="aspect-[7/5] w-[45rem] h-[25rem] max-w-none rounded-2xl bg-gray-50 object-cover"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <div className="overflow-hidden  py-24 sm:py-32">
+            <div className="mx-auto max-w-7xl px-6 lg:px-8 border-white">
+              <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+                <div className="lg:ml-auto lg:pl-4 lg:pt-4">
+                  <div className="lg:max-w-lg mt-8 ">
+                    <p className="mt-4 text-3xl font-bold ml-20 tracking-tight text-white-900 sm:text-4xl">
+                      GENIUS FIXERS
+                    </p>
+                    <p className="mt-6 text-lg leading-8 text-white-600 ml-20">
+                      Genius Fixers is a one-stop shop for all your IT needs. We
+                      are a team of highly skilled professionals who specialize
+                      in providing top-notch IT and Software Solutions for
+                      businesses of all sizes.
+                    </p>
+                    <a
+                      href="https://www.geniusfixers.com/"
+                      className="common-btn-color1"
+                      target="_blank"
+                      style={{
+                        marginLeft: "90px",
+                        color: "white",
+                        textDecoration: "none",
+                      }}
+                    >
+                      PREVIEW
+                    </a>
+                  </div>
+                </div>
+                <div className="cards items-start lg:order-first">
+                  <img
+                    src="/genius-fixers.png"
+                    alt="genius-fixers"
+                    loading="lazy"
+                    className="aspect-[7/5] w-[45rem] h-[25rem] max-w-none rounded-2xl bg-gray-50 object-cover "
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8 ">
+            <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8 ">
+              <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8 mt-8 ">
+                <h2 className="text-3xl font-bold tracking-tight text-white-900 sm:text-4xl">
+                  Reilu kuljetus
+                </h2>
+                <p className="mt-6 text-xl leading-8 text-white-600">
+                  Reilu is a Turku-based startup that aims to provide a total
+                  customer-centric food delivery service. Fairness and quality
+                  service are paramount to us. Reilu is driven by passion to
+                  help the local food.
+                </p>
+                <a
+                  href="https://reilukuljetus.fi/"
+                  className="common-btn-color1"
+                  target="_blank"
+                  style={{
+                    marginLeft: "10px",
+                    color: "white",
+                    textDecoration: "none",
+                  }}
+                >
+                  PREVIEW
+                </a>
+              </div>
+              <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
+                <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
+                  <img
+                    src="/reilu-kuljetus.png"
+                    alt="genius-packaging"
+                    loading="lazy"
+                    className="aspect-[7/5] w-[45rem] h-[25rem] max-w-none rounded-2xl bg-gray-50 object-cover"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+          <div className="overflow-hidden  py-24 sm:py-32">
+            <div className="mx-auto max-w-7xl px-6 lg:px-8 border-white">
+              <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+                <div className="lg:ml-auto lg:pl-4 lg:pt-4">
+                  <div className="lg:max-w-lg mt-8 ">
+                    <p className="mt-4 text-3xl font-bold ml-20 tracking-tight text-white-900 sm:text-4xl">
+                      Dental Center
+                    </p>
+                    <p className="mt-6 text-lg leading-8 text-white-600 ml-20">
+                      <b>Welcome to Dental Center of Tyson Corner : </b>
+                    </p>
+                    <p className="mt-0 text-lg leading-8 text-white-600 ml-20">
+                      Our clinic provides high-level dental services, offers
+                      comprehensive solutions for the treatment of any dental
+                      disease.
+                    </p>
+                    <a
+                      href="https://www.dentalcenteroftysonscorner.com"
+                      className="common-btn-color1"
+                      target="_blank"
+                      style={{
+                        marginLeft: "90px",
+                        color: "white",
+                        textDecoration: "none",
+                      }}
+                    >
+                      PREVIEW
+                    </a>
+                  </div>
+                </div>
+                <div className="cards items-start lg:order-first">
+                  <img
+                    src="/dental-center.png"
+                    alt="dental-center"
+                    className="aspect-[7/5] w-[45rem] h-[25rem] max-w-none rounded-2xl bg-gray-50 object-cover "
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
 
       <footer>
         <footer class="bg-white rounded-lg shadow dark:bg-gray-900 m-4">
@@ -211,8 +469,8 @@ const page = () => {
           </div>
         </footer>
       </footer>
-   </>
-  )
-}
+    </>
+  );
+};
 
-export default page
+export default page;
