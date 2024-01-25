@@ -5,13 +5,10 @@ import "./globals.css";
 const page = () => {
   return (
     <>
-    <title>Sam Zafar Front-End Developer</title>
-      <nav class="bg-white border-gray-200 dark:bg-gray-900">
+      <title>Sam Zafar Front-End Developer</title>
+      <nav class="bg-black border-gray-200 dark:bg-gray-900">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <a
-            href="https://flowbite.com/"
-            class="flex items-center space-x-3 rtl:space-x-reverse"
-          >
+          <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
             <Image
               src="/sam-logo.png"
               alt="my-logo"
@@ -46,7 +43,7 @@ const page = () => {
             <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
               <li>
                 <a
-                  href="\"
+                  href="/"
                   class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
                 >
                   Home
@@ -86,18 +83,23 @@ const page = () => {
         <div className="relative bg-white">
           <div className="mx-auto max-w-7xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
             <div className="px-6 pb-24 pt-10 sm:pb-32 lg:col-span-7 lg:px-0 lg:pb-56 lg:pt-48 xl:col-span-6">
-              <div className="mx-auto max-w-2xl lg:mx-0">
-                <div className="hidden sm:mt-32 sm:flex lg:mt-16"></div>
-                <h1 className="mt-24 text-4xl font-bold tracking-tight text-gray-900 sm:mt-10 sm:text-6xl">
+              <div className="mx-auto max-w-2xl lg:mx-0 ">
+                <div className="hidden sm:mt-32 sm:flex lg:mt-16 "></div>
+                <h1 className="mt-20 text-4xl font-bold tracking-tight text-gray-900 sm:mt-10 sm:text-6xl">
                   Hi 👋, I'm Sam Zafar <br />A Passionate Frontend Developer
                 </h1>
-                <p className="mt-6 text-lg leading-8 text-gray-600">
-                  Sam Zafar: Pakistan's Pioneering Frontend Developer. With a
-                  passion for crafting digital brilliance, I transform ideas
-                  into captivating web experiences. Let's code the future
-                  together. 👨‍💻🚀
+                <p className="mt-2 text-lg leading-8 text-gray-600">
+                  <b> Languages :</b>
                 </p>
-                <div className="mt-10 flex items-center gap-x-6">
+                <p className="mt-2 text-lg leading-8 text-gray-600">
+                  <b>
+                    HTML5, CSS, Bootstrap, JavaScript, React, Next, Tailwind
+                    CSS, Node JS,
+                  </b>
+                </p>
+                <h3 align="left">Languages and Tools:</h3>
+
+                <div className="mt-6 flex items-center gap-x-6">
                   <a
                     href="/sam-zafar-resume.pdf"
                     className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
@@ -217,7 +219,10 @@ const page = () => {
               <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                 <dt class="text-sm font-medium text-white-900">About</dt>
                 <dd class="mt-1 text-sm leading-6 text-white-900 sm:col-span-2 sm:mt-0">
-                Sam Zafar: Pioneering Frontend Developer. With a passion for crafting digital brilliance, I transform ideas into captivating web experiences. Let's code the future together. 👨‍💻🚀
+                  Sam Zafar: Pioneering Frontend Developer. With a passion for
+                  crafting digital brilliance, I transform ideas into
+                  captivating web experiences. Let's code the future together.
+                  👨‍💻🚀
                 </dd>
               </div>
               <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
@@ -269,21 +274,15 @@ const page = () => {
       </div>
 
       <footer>
-        <footer class="bg-white rounded-lg shadow dark:bg-gray-900 m-4">
+        <footer class="rounded-lg shadow bg-gray-900 m-4">
           <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
             <div class="sm:flex sm:items-center sm:justify-between">
-              <Image
-                src="/sam-logo.png"
-                alt="my-logo"
-                class=""
-                height={"80"}
-                width={"80"}
-              />
+              <Image src="/sam-logo.png" class="" height={"80"} width={"80"} />
 
               <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                 <li>
                   <a
-                    href="#"
+                    href="/"
                     class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
                   >
                     Home

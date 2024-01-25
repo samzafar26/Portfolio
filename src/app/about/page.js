@@ -7,7 +7,7 @@ const page = () => {
       <nav class="bg-white border-gray-200 dark:bg-gray-900">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a
-            href="https://flowbite.com/"
+            href="/"
             class="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <Image
@@ -108,7 +108,7 @@ const page = () => {
       </div>
 
       <footer>
-        <footer class="bg-white rounded-lg shadow dark:bg-gray-900 m-4">
+        <footer class="rounded-lg shadow bg-gray-900 m-4">
           <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
             <div class="sm:flex sm:items-center sm:justify-between">
               <Image src="/sam-logo.png" class="" height={"80"} width={"80"} />

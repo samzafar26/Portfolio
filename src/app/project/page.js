@@ -4,10 +4,10 @@ import Image from "next/image";
 const page = () => {
   return (
     <>
-      <nav class="bg-white border-gray-200 dark:bg-gray-900">
+      <nav class="border-gray-200 bg-gray-900">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a
-            href="https://flowbite.com/"
+            href="/"
             class="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <Image
@@ -94,12 +94,10 @@ const page = () => {
           <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
             <div className="text-center">
               <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-                Data to enrich your online business
+              Complete the all project with the help of
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-300">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-                lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-                fugiat aliqua.
+                HTML5, CSS, JavaScript, Bootstrap, Tailwind CSS, Next Js, ReactJs, Node Js,
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
@@ -207,8 +205,10 @@ const page = () => {
           </div>
 
           <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8 ">
-            <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8 ">
-              <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8 mt-8 ">
+            <div
+              className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8 ">
+                
+              <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8 mt-8  ">
                 <h2 className="text-3xl font-bold tracking-tight text-white-900 sm:text-4xl">
                   GENIUS PACKAGING
                 </h2>
@@ -366,7 +366,7 @@ const page = () => {
       </div>
 
       <footer>
-        <footer class="bg-white rounded-lg shadow dark:bg-gray-900 m-4">
+        <footer class="rounded-lg shadow bg-gray-900 m-4">
           <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
             <div class="sm:flex sm:items-center sm:justify-between">
               <Image src="/sam-logo.png" class="" height={"80"} width={"80"} />
