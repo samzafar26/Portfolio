@@ -6,7 +6,7 @@ const page = () => {
   return (
     <>
       <title>Sam Zafar Front-End Developer</title>
-      <nav class="bg-black border-gray-200 dark:bg-gray-900">
+      <nav class="bg-black  dark:bg-gray-900">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
             <Image
@@ -93,7 +93,7 @@ const page = () => {
                 </p>
                 <p className="mt-2 text-lg leading-8 text-gray-600">
                   <b>
-                    HTML5, CSS, Bootstrap, JavaScript, React, Next, Tailwind
+                    HTML5, CSS, Bootstrap, JavaScript, React Js, Next Js, Tailwind
                     CSS, Node JS,
                   </b>
                 </p>

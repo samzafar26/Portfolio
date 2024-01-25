@@ -1,8 +1,12 @@
 import React from "react";
 import Image from "next/image";
 
+
 const page = () => {
   return (
+    
+
+    
     <>
       <nav class="bg-white border-gray-200 dark:bg-gray-900">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -106,6 +110,10 @@ const page = () => {
           </div>
         </div>
       </div>
+
+
+    
+
 
       <footer>
         <footer class="rounded-lg shadow bg-gray-900 m-4">
