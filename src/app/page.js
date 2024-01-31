@@ -93,8 +93,8 @@ const page = () => {
                 </p>
                 <p className="mt-2 text-lg leading-8 text-gray-600">
                   <b>
-                    HTML5, CSS, Bootstrap, JavaScript, React Js, Next Js, Tailwind
-                    CSS, Node JS,
+                    HTML5, CSS 3, Bootstrap 5, JavaScript, React Js, Next Js, Tailwind
+                    CSS, Git,
                   </b>
                 </p>
                 <h3 align="left">Languages and Tools:</h3>
