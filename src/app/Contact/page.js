@@ -1,15 +1,11 @@
 import React from "react";
 import Image from "next/image";
-
 const page = () => {
   return (
     <>
       <nav class="bg-white border-gray-200 dark:bg-gray-900">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <a
-            href="/"
-            class="flex items-center space-x-3 rtl:space-x-reverse"
-          >
+          <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
             <Image src="/sam-logo.png" class="" height={"80"} width={"80"} />
           </a>
           <button
@@ -75,10 +71,7 @@ const page = () => {
       </nav>
 
       <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
-        <div
-          className="sm:mx-auto sm:w-full sm:max-w-sm"
-         
-          >
+        <div className="sm:mx-auto sm:w-full sm:max-w-sm">
           <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-white">
             CONTACT ME
           </h2>

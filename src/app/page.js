@@ -6,6 +6,7 @@ const page = () => {
   return (
     <>
       <title>Sam Zafar Front-End Developer</title>
+      <link rel="canonical" href="https://sam-zafar.vercel.app/" />
       <nav class="bg-black  dark:bg-gray-900">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
@@ -93,11 +94,11 @@ const page = () => {
                 </p>
                 <p className="mt-2 text-lg leading-8 text-gray-600">
                   <b>
-                    HTML5, CSS 3, Bootstrap 5, JavaScript, React Js, Next Js, Tailwind
-                    CSS, Git,
+                    HTML5, CSS 3, Bootstrap 5, JavaScript, React Js, Next Js,
+                    Tailwind CSS, Git, Figma.
                   </b>
                 </p>
-                <h3 align="left">Languages and Tools:</h3>
+                <h2 align="left">Languages and Tools:</h2>
 
                 <div className="mt-6 flex items-center gap-x-6">
                   <a
@@ -115,8 +116,8 @@ const page = () => {
                 className="aspect-[3/2] w-full bg-gray-50 object-cover lg:absolute lg:inset-0 lg:aspect-auto lg:h-full"
                 src="/pick.jpg"
                 alt="coding lover"
-                height={""}
-                width={""}
+                height={"1px"}
+                width={"1px"}
                 loading="lazy"
               />
             </div>
@@ -130,8 +131,8 @@ const page = () => {
             className=" w-full bg-gray-50 object-cover lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-1/2"
             src="coding.jpg"
             alt="coding lover"
-            height={""}
-            width={""}
+            height={"0px"}
+            width={"0px"}
             loading="lazy"
           />
           <div className="mx-auto grid max-w-7xl lg:grid-cols-2">
@@ -277,7 +278,13 @@ const page = () => {
         <footer class="rounded-lg shadow bg-gray-900 m-4">
           <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
             <div class="sm:flex sm:items-center sm:justify-between">
-              <Image src="/sam-logo.png" class="" height={"80"} width={"80"} />
+              <Image
+                src="/sam-logo.png"
+                class=""
+                height={"80"}
+                width={"80"}
+                alt="my-logo"
+              />
 
               <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                 <li>
